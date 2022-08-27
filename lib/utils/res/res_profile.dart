@@ -4,7 +4,7 @@ class ResWelcomeScreen {
   static const String welcomeMessage1 =
       "Earn good money \n delivering packages";
   static const String welcomeMessage2 =
-      "Help users pickup their goods from vendors                 \n and have it delivered to them";
+      "Help users pickup their goods from vendors \n and have it delivered to them";
   static const String register = "Register";
   static const String login = "Sign in";
 }

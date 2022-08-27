@@ -4,8 +4,6 @@ import 'package:hious_package_delivery_app/components/spacers.dart';
 import 'package:hious_package_delivery_app/utils/res/res_profile.dart';
 import 'package:hious_package_delivery_app/utils/designs/styles.dart';
 
-
-
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
 
@@ -24,7 +22,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Image(
                   image: AssetImage(Assets.deliveryMan),
@@ -47,4 +45,3 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     );
   }
 }
-
