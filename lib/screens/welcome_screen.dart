@@ -57,13 +57,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       textColor: Colors.black,
                     )
                   ],
-                )
-                // primaryButton(
-                //   text: ResWelcomeScreen.login,
-                //   onPressed: () {},
-                //   fillColor: Colors.white,
-                //   textColor: Colors.black,
-                // )
+                ),
               ],
             ),
           ),
